@@ -1,7 +1,6 @@
 import "./ui/Timer.css";
 import { Component, createElement } from "react";
 import { TimeText } from "./components/TimeText";
-import { hot } from "react-hot-loader/root";
 
 class Timer extends Component {
     timer = null;
@@ -55,4 +54,4 @@ class Timer extends Component {
     }
 }
 
-export default hot(Timer);
+export default Timer;
